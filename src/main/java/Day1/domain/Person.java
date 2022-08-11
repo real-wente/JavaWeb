@@ -51,4 +51,14 @@ public class Person {
                 ", d='" + d + '\'' +
                 '}';
     }
+
+    public void eat(){
+        System.out.println("eating=========");
+    }
+
+    public void eat(int num){
+        System.out.println("eating========="+ num);
+    }
+
+
 }
