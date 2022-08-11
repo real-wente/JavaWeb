@@ -1,0 +1,41 @@
+Index: src/main/java/Day1/reflect/ReflectDemo1.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/main/java/Day1/reflect/ReflectDemo1.java b/src/main/java/Day1/reflect/ReflectDemo1.java
+new file mode 100644
+--- /dev/null	(date 1660204247481)
++++ b/src/main/java/Day1/reflect/ReflectDemo1.java	(date 1660204247481)
+@@ -0,0 +1,31 @@
++package Day1.reflect;
++
++import Day1.domain.Person;
++
++/**
++ * @author wentao
++ * @date 2022-08-10 20:15
++ */
++public class ReflectDemo1 {
++    public static void main(String[] args) throws ClassNotFoundException {
++
++        //1 Class.forName("全类名")
++        Class aClass = Class.forName("Day1.domain.Person");
++        System.out.println(aClass);
++
++        //2 类名.class
++        Class aClass1 = Person.class;
++        System.out.println(aClass1);
++
++        //3 对象.getClass()
++        Person p = new Person();
++        Class aClass2 = p.getClass();
++        System.out.println(aClass2);
++
++        //比较这三个对象
++        System.out.println(aClass == aClass1);
++        System.out.println(aClass == aClass2);
++
++
++    }
++}
