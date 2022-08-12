@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c40947ca-0f22-4984-aceb-a11de38a6bf2" name="变更" comment="全部覆盖">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day1/reflect/ReflectDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Day1/reflect/ReflectDemo4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2022_8_11_15_46____.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_2022_8_11_15_46____.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2022_8_11_15_51____.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_2022_8_11_15_51____.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Day1/domain/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day1/domain/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Day1/Test/CalculatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Day1/Test/CalculatorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Day1/reflect/ReflectDemo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Day1/reflect/ReflectDemo4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +98,9 @@
       <updated>1660204059866</updated>
       <workItem from="1660204060902" duration="1673000" />
       <workItem from="1660211386583" duration="2066000" />
-      <workItem from="1660213463729" duration="69000" />
+      <workItem from="1660213463729" duration="85000" />
+      <workItem from="1660213556816" duration="216000" />
+      <workItem from="1660268830760" duration="2068000" />
     </task>
     <task id="LOCAL-00001" summary="全部覆盖">
       <created>1660204299843</created>
@@ -113,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1660204299843</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="全部覆盖">
+      <created>1660213541590</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1660213541590</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
